@@ -1,0 +1,196 @@
+/* style adapté mobile*/
+
+@media screen and (max-width: 375px){
+   
+/*Variables*/
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}   
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+   
+/*titre_info*/
+.container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    margin-top: 5%;
+}  
+
+main .btn {
+    text-decoration: none;
+    color: var(--green-light);
+    background-color: var(--green);
+    border-radius: 7px;
+    padding: 12px 17px;
+}
+
+.btn:hover { 
+    background-color: var(--green-dark);
+    transition: background-color 500ms;
+}
+
+/*header*/    
+header section {
+    display: none;
+}
+
+header nav {
+    height: 5%;
+}
+
+nav .menu {
+    display: none;
+}
+
+nav {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+    /*burger*/
+nav div img {
+    text-align: center;
+    display: block;
+    width: 27px;
+    background-color: var(--green-light);
+    border-radius: 7px;
+    padding: 8px 8px;
+}
+
+main .blocktext_1 {
+    text-align: center;
+}
+
+main .blocktext_1 h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+}
+
+main .blocktext_1 span {
+    color: var(--green);           
+}
+
+main .blocktext_1 p {
+    margin-bottom: 50px;
+    color: var(--blue-dark);
+}
+
+
+
+/*card 1*/
+
+main .card_1 {
+    padding-top: 0;
+}
+
+main .card_1 h2 {
+    color: var(--gray-dark); 
+}
+
+main .card_1 img {
+    width: 100%;
+    padding-top: 30%;
+}
+
+main .card_1 p {
+    color: var(--blue-dark);
+    padding-top: 0.2px;
+    font-size: 1.2em;
+}
+
+
+
+/*card 2*/
+
+main .card_2 {
+    text-align: center;
+}
+
+    /*title card2*/
+main .blocktext_2 h2 {
+    font-size: 2.8em;
+    color: var(--green);
+    text-align: center;
+}   
+    /*texte card2*/
+main .card_2 p {
+    color: var(--blue-dark);
+}
+
+    /*img card2*/
+main .card_2 img {
+    margin-top: 30%;
+    width: 85%;
+}
+
+
+/*card 3*/
+
+.card_3 {
+    text-align: center;
+    padding-top: 2%;
+}
+    /*title card3*/
+.card_3 h1 {
+    color: var(--green);
+    font-size: 250%;
+    padding: 40px;
+}
+
+    /*text card3*/
+.card_3 h2 {
+    color: var(--gray-dark);
+    text-align: center;
+    font-size: 120%;
+}
+
+.card_3 p {
+    color: var(--blue-dark);
+}
+
+    /*img card3*/
+.card_3 img {
+    width: 100%;
+    margin-top: 15%;
+    
+}
+
+
+/*footer*/
+footer {
+    font-family: 'inter';
+    color: var(--green-dark);
+    background-color: var(--gray-light);
+    margin-top: 20%;
+    padding-top: 1%;
+}
+
+footer div a {
+    text-decoration: none;
+    color: var(--blue-dark);
+}
+
+.textfooter {
+    padding-bottom: 5%;
+}
+
+
+
+
+}
